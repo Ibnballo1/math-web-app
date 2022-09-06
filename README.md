@@ -40,6 +40,7 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/Ibnballo1/Maths-Guru-App/issues)
 
 # Live Demo
+
 [Live Page](https://venerable-lolly-447136.netlify.app/)
 
 # Show your support
@@ -52,4 +53,4 @@ Kindly give a :hearts: if you like this.
 
 # License
 
-This project is [MIT](https://github.com/Ibnballo1/Maths-Guru-App/blob/51738162ea86b195967e089ca0c96b04f771af09/maths-web-app/MIT.md).
+This project is [MIT](C:\Users\J T COMPUTER\Microverse-April18\Module 3- React and Application\math-web-app/MIT.md).

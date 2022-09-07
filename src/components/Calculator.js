@@ -1,15 +1,20 @@
+/* eslint-disable react/no-array-index-key */
+/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import '../App.css';
+
+// Create an array for the data
+const calculator = ['0', 'AC', '+/-', '%', '÷', '7', '8', '9', 'X', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+const design = calculator.map((item, index) => (
+  <p className={`item${index} + items`} key={index}>{item}</p>
+));
 
 class Calculator extends React.Component {
-//   constructor(props) {
-//     super(props);
-//   }
-
   render() {
     return (
-      <div>
-        <h1>Hello World</h1>
-      </div>
+      <section className="section">
+        <div className="container" border={1}>{design}</div>
+      </section>
     );
   }
 }

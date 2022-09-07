@@ -1,6 +1,8 @@
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import calculate from '../logic/calculate';
+import operate from '../logic/operate';
 import '../App.css';
 
 // Create an array for the data

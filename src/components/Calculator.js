@@ -2,7 +2,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import '../App.css';
 
 // Create an array for the data
 const calculator = ['0', 'AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
@@ -27,6 +26,7 @@ const Calculator = () => {
 
   return (
     <section className="section">
+      <h2>Let&apos;s do some math!</h2>
       <div className="container">
         {
           calculator.map((item, index) => {

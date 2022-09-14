@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Home = () => (
-  <section>
-    <h1>Welcome to our page!</h1>
-    <p>
+  <section className="homeSection">
+    <h1 className="h1">Welcome to our page!</h1>
+    <p className="p">
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Praesentium omnis officia blanditiis laborum necessitatibus deserunt iusto,
       sapiente ipsa quibusdam expedita!
@@ -11,7 +11,7 @@ const Home = () => (
       reprehenderit totam, earum culpa.
       Nulla necessitatibus incidunt sunt culpa provident quo neque quae officiis.
     </p>
-    <p>
+    <p className="p">
       Voluptates libero cum totam dolore facilis laborum consequatur explicabo minus
       tempore exercitationem commodi sunt,
       culpa officiis illo quaerat soluta suscipit alias quas error nam, ad at esse?

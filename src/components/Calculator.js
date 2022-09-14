@@ -26,7 +26,7 @@ const Calculator = () => {
 
   return (
     <section className="section">
-      <h2>Let&apos;s do some math!</h2>
+      <h2 className="h2">Let&apos;s do some math!</h2>
       <div className="container">
         {
           calculator.map((item, index) => {
